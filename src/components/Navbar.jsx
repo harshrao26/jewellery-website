@@ -127,7 +127,8 @@ const Nav = () => {
       <div className="flex items-center justify-between w-full md:px-8 px-2">
         <NavLink to="/">
           <div className="px-4 py-2 rounded-2xl">
-            <img src="" alt="Logo" className="w-[8vw] " />
+            <img src="../../public/logo.png" alt="Logo" className="w-[8vw] " />
+            {/* <h1 className="text-xl font-semibold">LuxeGem</h1> */}
           </div>
         </NavLink>
 
@@ -280,10 +281,7 @@ const Nav = () => {
           >
             <FiSearch className="text-xl font-bold cursor-pointer" />
           </button>
-          <NavLink
-            to="/cart"
-            className="  text-2xl cursor-pointer mx-2"
-          >
+          <NavLink to="/cart" className="  text-2xl cursor-pointer mx-2">
             <LuShoppingCart />
           </NavLink>
         </form>
